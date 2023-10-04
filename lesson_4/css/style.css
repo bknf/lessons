@@ -1,0 +1,48 @@
+@import url("reset.css");
+
+
+/* селектор * робить запит до всіх об'єктів на сторінці
+*{
+   color: blue;
+}
+*/
+
+/*селектор тегу*/
+a{
+   color: red;
+}
+li{
+   color:green
+}
+/*селектор класу*/
+.title{
+   color: aqua;
+}
+/*селектор id*/
+#main-title{
+   color: darkorchid;
+}
+/*усі теги mark тільки в середині об'єктів з класом lesson (рівень вкладеності значення немає*/
+.lesson mark{
+   color: orange;
+}
+/*усі теги лише з класами lilesson та lijunior*/
+.lilesson.lijunior{
+   color: deeppink;
+}
+/*усі об'єкти з класом lijunior в середині об'єктів з класом litext*/
+.litext .lijunior{
+   color: gold;
+}
+/*усі теги P першого рівня в середині об'єктів з класом ditext*/
+.ditext>p{
+   color: yellow;
+}
+/*усі об'єкти в середині об'єктів з класом textdi*/
+.textdi *{
+   color: blue;
+}
+/*усі теги p які знаходяться далі по коду після об'єктів з класом ptext та мають той самий рівень вкладеності*/
+.ptext ~ p {
+   color:greenyellow
+}
