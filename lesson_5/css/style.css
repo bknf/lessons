@@ -1,0 +1,125 @@
+/*Підключення шрифтів*/
+
+/*Через плагін*/
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,600,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Onest&display=swap");
+
+
+
+
+/*Через сайт Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+/*Скидання стилів*/
+@import url(reset.css);
+
+/*Підключення шрифтів вручну*/
+
+@font-face {
+   font-family: "Causten";
+   src: url("../fonts/Causten-Semi-Bold.woff2") format("woff2"),
+   url("../fonts/Causten-Semi-Bold.woff") format("woff");
+   font-weight: 600;
+   font-style: normal;
+   font-display: swap;
+}
+
+/*Стилізація статті*/
+body{
+   font-family: "Open Sans", sans-serif;
+   font-size: 18px;
+   line-height: 1.5;
+   font-weight: 400;
+   color: rgb(61, 4, 97);
+
+}
+
+.text{
+   text-align: center;
+   line-height: 2;
+   letter-spacing: 2px;
+   
+}
+
+.list{
+   font-family: "Causten", sans-serif;
+   font-weight: 600;
+   color: blue;
+   text-decoration: underline;
+}
+
+.title{
+   font-size: 30px;
+   color: black;
+   text-align: center;
+   text-shadow: 5px 5px 5px rgba(61, 14, 170, 0.863);
+   font-weight: 700;
+}
+
+.sub-title{
+   font-size: 20px;
+   color: rgba(182, 18, 182, 0.822);
+   text-align: center;
+   text-shadow: -5px 5px 5px rgba(199, 218, 31, 0.623), 9px -8px 6px rgba(48, 202, 207, 0.712);
+   font-weight: 700;
+}
+
+h4,h5{
+   color: #7D7D7D;
+   font-size: 15px;
+}
+
+div.image{
+   text-align: center;
+}
+
+.ditext > p{
+   color: green;
+   font-style: italic;
+}
+
+.ditext{
+   word-spacing: 10px;
+}
+
+
+/*Стилізація макету з Consulting*/
+.hwtext,
+.hwlist{
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+   color:#7D7D7D;
+   line-height: 1.46;
+}
+
+.hwtitle,
+.hw-sub-title1,
+.hw-sub-title2{
+   font-family: "Poppins", sans-serif;
+   color: #37393F;
+   line-height: 1.27;
+}
+
+.hwlist{
+   font-weight: 500;
+}
+
+.hwtitle{
+   font-weight: 600;
+   text-transform:capitalize;
+   font-size: 30px;
+}
+
+.hw-sub-title1{
+   font-weight: 600;
+   font-size: 20px;
+   color: #6B77E5;
+
+}
+
+.hw-sub-title2{
+   font-weight: 700;
+   font-size: 40px;
+}
