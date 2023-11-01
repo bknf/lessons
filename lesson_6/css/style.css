@@ -1,0 +1,179 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+
+body{
+   font-family: "Inter", sans-serif;
+   color: #7D7D7D;
+}
+
+.header{
+   font-size: 60px;
+   text-align: center;
+
+}
+.consulting{
+   max-width: 695px;
+   margin: 0 auto;
+   margin-bottom: 50px;
+}
+h1,
+h2,
+h3{
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   line-height: 1.27; 
+}
+h1{
+   text-transform: capitalize;
+   font-size: 30px;
+   color:#37393F; 
+   margin-bottom: 3px;    
+}
+.imagemenag{
+   margin-bottom: 37px;
+   max-width: 100%;
+}
+.part-1{
+   margin-bottom: 42px;
+}
+.part-2{
+margin-bottom: 40px;
+}
+.image{
+   display: inline-block;
+   vertical-align: top;
+   margin-right: 27px;
+   
+}
+.part-3{
+   max-width: 332px;
+   display: inline-block;
+   vertical-align: top;
+
+}
+h3{
+   font-size: 20px;
+   color: #6B77E5;
+   margin-bottom: 12px;
+}
+h2.title{
+font-size: 25px;
+margin-bottom: 15px;
+color: #37393F;
+}
+h3.titlebenefits{
+   color: #40DDB6;
+   margin-bottom: 21px;
+}
+.listcons li{
+   margin-bottom: 30px;
+}
+.text1,
+.text2,
+.list{
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+}
+
+.jewellery{
+   max-width: 1175px;
+   margin: 0 auto;
+   margin-bottom: 50px;
+}
+
+.partjew{
+   max-width: 563px;
+   display: inline-block;
+   padding-top: 21px;
+}
+
+h3.titledo{
+   color:#D06B00;
+   font-family: "Inter", sans-serif;
+   text-transform: uppercase;
+   font-size: 28px;
+}
+
+h2.titlejew{
+   font-family: "DM Serif Text", sans-serif;
+   text-transform: capitalize;
+   font-size: 59px;
+   color: #0E333D;
+   line-height: 1.47;
+   min-width: 526px;   
+}
+.textjew{
+   font-family: "Inter", sans-serif;
+   font-size: 20px;
+   color: #474747;
+   line-height: 1.80;
+   min-width: 563px;
+   margin-right: 38px
+}
+
+.imagear1,
+.imagwar2{
+   width: 273px;
+   height: 518px;
+   max-width: 100%;
+   vertical-align: top;
+}
+.imagear1{
+   margin-right: 22px;
+}
+
+/*Practice*/
+.practice1,
+.practice2,
+.practice3,
+.practice4{
+   color: black;
+}
+
+.practice1{
+   background-color: #d5f1f5;
+   padding: 30px 40px;
+   margin-bottom: 30px;
+}
+a{
+   color: blue;
+   padding: 5px;
+   display: inline-block;
+   margin-bottom: 30px;
+}
+.practice1 p{
+   margin-bottom: 30px;;
+}
+
+.imagesyr{
+   margin-left: 50px;
+
+}
+.imagesyr2{
+   margin-top: -50px;
+   margin-left: 300px;
+   margin-bottom: 50px;
+}        
+.practice2{
+   background-color: antiquewhite;
+   max-width: 400px;
+   height: 130px;
+   overflow: hidden;
+   display: inline-block;
+   margin-right: 23px;
+}
+.practice3{
+   max-width: 400px;
+   height: 130px;
+   overflow: scroll;
+   display: inline-block;
+}
+
+.practice4{
+   background-color: rgb(229, 236, 164);
+   padding: 20px 50px 10px;
+   max-width: 800px;
+   max-height: 120px;
+}
+
