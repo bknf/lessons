@@ -1,0 +1,350 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+body{
+   font-family:"Inter", sans-serif;
+   color: #7D7D7D;
+   font-size: 18px;
+   line-height: 1.46;
+}
+h1{
+   font-weight: 700;
+   font-size: 50px;
+   text-align: center;
+}
+
+#list-content{
+   text-align: center;
+   font-size: 30px;
+   color: #8A33FD;
+}
+
+#consulting,
+#euphoria,
+#jewellery,
+#practice
+{
+   color: #8A33FD;
+   font-weight: 700;
+   font-size: 30px;
+   text-decoration: underline;
+   margin: 50px;
+}
+
+/*CONSULTING*/
+.licening,
+.project-information{
+   max-width: 1218px;
+   margin: 0 auto;
+}
+
+.maintitle{
+   max-width: 296px;
+   margin: 0 auto;
+}
+
+.green-icon{
+   display: inline-block;
+   width: 12px;
+   height: 12px;
+   background-color: #40DDB6;
+   vertical-align: middle;
+}
+
+.template-text {
+   display: inline-block;
+   vertical-align: middle;
+   font-weight: 500;
+   margin-bottom: 16px;
+   color: #37393F;
+}
+
+.title-licencing {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   text-align: center;
+   font-size: 60px;
+   color: #37393F;
+   margin-bottom: 70px;
+}
+.sub-title-licening-main {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-size: 40px;
+   color: #37393F;
+   line-height: 1.21;
+   margin-bottom: 11px;
+}
+
+.icons-graphics p{
+   margin-bottom: 32px;
+}
+
+.photography p{
+   margin-bottom: 24px;
+}
+
+.icons-graphics,
+.photography{
+   margin-bottom: 100px;
+}
+
+.sub-title-licening{
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-size: 30px;
+   color: #37393F;
+}
+
+.green-text,
+.green-title{
+   color: #40DDB6;
+}
+
+.green-title {
+   font-weight: 400;
+}  
+
+.fonts{
+   margin-bottom: 150.5px;
+}
+.project-information{
+   max-width: 830px;
+}
+
+.title-project-information {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 1.27;
+   color: #37393F;
+   margin-bottom: 13px;
+}
+
+.list-project-information{
+   font-weight: 500;
+   padding-left: 16px;
+}
+
+.text-project-information p {
+   margin-bottom: 35px;
+}
+.list-project-information li {
+   margin-bottom: 30px;
+}
+
+/*EUPHORIA*/
+.euphoria {
+   max-width: 1240px;
+   margin: 0 auto;
+   padding: 0 21px;
+}
+.title-euphoria,
+.sub-title-euphoria,
+.link {
+   font-family: "Core Sans C", sans-serif;
+   font-weight: 700;
+   font-size: 20px;
+   letter-spacing: 0.02;
+}
+
+.violet{
+   width: 6px;
+   height: 28px;
+   display: inline-block;
+   vertical-align: middle;
+   border-radius: 10px;
+   background-color: #8A33FD;
+   margin-right: 15px;
+}
+
+.title-euphoria {
+   font-size: 28px;
+   margin-bottom: 30px;
+   color: #3C4242;
+}
+
+h2{
+   display: inline-block;
+   vertical-align: middle;
+}
+.sub-title-euphoria {
+   margin-bottom: 25px;
+}
+.text-euphoria{
+   font-family: "Causten", sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   margin-bottom: 24px;
+}
+
+.text-euphoria p {
+   margin-bottom: 21px;
+}
+
+/*JEWELLERY*/
+
+.jewellery{
+   max-width: 1103px;
+   margin: 0 auto;
+   font-family: "Cormorant Infant", serif;
+   font-weight: 700;
+}
+
+.jew{
+   display: inline-block;
+   max-width: 503px;
+   margin-right: 75px;
+   padding-top: 70px;
+}
+
+.sub-title-jewellery{
+   font-size: 20px;
+   color: #D58417;
+   text-transform: capitalize;
+   margin-bottom: 27px;
+   max-width: 128px;
+}
+.title-jewellery{
+   font-size: 64px;
+   color: #000000;
+   text-transform: capitalize;
+   max-width: 503px;
+   margin-bottom: 31px;
+}
+
+.text-jewellery{
+   font-size: 30px;
+   line-height: 1.4;
+   max-width: 489px;
+   color: #606060;
+   display: inline-block;
+   }
+
+.fotos{
+   display: inline-block;
+   vertical-align: top;
+}
+
+.necklace{
+   max-width: 187px;
+   max-height: 350px;
+   border: 1px solid #502203;
+   display: inline-block;
+   border-radius: 235px;
+   margin:85px 20px 85px 0;
+
+}
+
+.image-foto-1{
+   max-width: 177px;
+   max-height: 336px;
+   vertical-align: middle;
+   margin: 14px 10px -10px -14px;
+}
+
+.earrings
+{
+max-width: 318px;
+max-height: 519px;
+border: 1px solid #502203;
+display: inline-block;
+border-radius: 235px;
+
+}
+
+.image-foto-2{
+   max-width: 307px;
+   max-height: 500px;
+   margin: 19px 11px 19px -11px;
+   vertical-align: middle;   
+}
+
+/*PRACTICE*/
+.practice-1{
+   padding: 20px;
+   margin: 30px;
+   background-color: antiquewhite;
+   max-width: 530px;
+   border-left: 5px solid #D58417;
+   border-right: 10px dotted #c94001;
+   border-top: 10px dashed rgb(164, 201, 1);
+   border-bottom: 8px double #8A33FD;
+   outline: 20px dotted #50033d;
+}
+
+.practice{
+   margin-bottom: 20px;
+}
+.practice p{
+   margin-bottom: 100px;
+}
+
+.practice-2{
+   border: 10px dotted #40DDB6;
+   line-height: 1.5;
+   background-color: rgb(218, 221, 64);
+   outline:5px solid #2098dd;
+}
+
+.practice-3{
+   margin: 50px;
+   padding: 20px;
+   width: 400px;
+   background-color: chartreuse;
+   border-radius: 10px;
+   box-shadow: 5px 5px 20px 5px #000000,
+   inset 0px 0px 20px 5px #14299e;
+}
+
+.circle{
+   background-color: #2098dd;
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   margin-bottom: 50px;
+}
+
+.shadowbox{
+   box-shadow: 5px 5px 20px 5px rgb(0, 155, 65) ;
+   line-height: 2;
+}
+
+.arrow-right{
+   display: inline-block;
+   margin-left: 20px;
+   width: 0;
+   height: 0;
+   border-top: 50px solid transparent;
+   border-left: 100px solid rgb(192, 30, 197);
+   border-bottom: 50px solid transparent;
+}
+
+.arrow-top{
+   display: inline-block;
+   margin-left: 20px;
+   width: 0;
+   height: 0;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   border-bottom: 100px solid #D58417;
+}
+
+.arrow-left{
+   display: inline-block;
+   margin-left: 20px;
+   width: 0;
+   height: 0;
+   border-right: 100px solid #2098dd;
+   border-bottom: 50px solid transparent;
+   border-top: 50px solid transparent;
+}
+.arrow-bottom{
+   display: inline-block;
+   margin-left: 20px;
+   width: 0;
+   height: 0;
+   border-top: 100px solid rgb(24, 141, 77);
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+}
