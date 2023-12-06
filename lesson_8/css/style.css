@@ -1,0 +1,422 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+.consulting {
+   font-family:"Inter", serif;
+   font-size: 18px;
+   max-width: 673px;
+   color: #7D7D7D;
+   padding: 20px;
+   margin: 0 auto;
+}
+.welcome {
+   font-weight: 600;
+   text-transform: capitalize;
+   color: #37393F;
+   background: url("../img/green_icon.png") 0 2.5px no-repeat;
+   padding-left: 17px;
+   min-height: 22px;
+   margin-bottom: 16px;
+}
+.main-title {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 1.21;
+   color: #37393F;
+   text-transform: capitalize;
+   padding: 9px 0 10px 0;
+   margin-bottom: 20px;
+}
+.text-consulting {
+   line-height: 1.46;
+   margin-bottom: 20px;
+}
+
+.text-consulting p{
+   margin-bottom: 15px;
+}
+.list-block {
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   color: #37393F;
+   margin-bottom: 43px;
+}
+.list-item {
+   margin-bottom: 23px;
+   background: url("../img/list_icon.svg") 0 3px / 27px 27px no-repeat;
+   line-height: 1.65;
+   padding-left: 35px;
+}
+
+.advantages{
+   margin-bottom: 37px;   
+}
+
+.awards,
+.experience{
+   display: inline-block;
+   max-width: 295px;
+   border: 1px solid #E3E3E3;
+}
+
+.experience{
+   max-width: 296px;
+   background: url("../img/experience.svg") 32px 31px / 39px 38.9px no-repeat;
+   padding: 31px 32px 32px 32px;
+   margin-right: 21px;
+}
+
+.awards{
+   background: url("../img/awards.svg") 37px 31px / 39.5px 38.2px no-repeat;
+   padding: 31px 37px 32px 37px;
+}
+.exprience-block{
+   line-height: 1.35;
+   padding-left: 58px;
+   font-size: 16px;
+}
+
+.awards-block{
+   line-height: 1.35;
+   padding-left: 55px;
+   font-size: 16px;
+}
+
+.title-awards,
+.title-experience{
+   padding-bottom: 3px;
+}
+
+.title-experience,
+.title-awards{
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-size: 20px;
+   color: #37393F;
+   text-transform: capitalize;
+   margin-bottom: 3px;
+}
+
+
+.link-more{
+   display: inline-block;
+   font-weight: 600;
+   text-transform: capitalize;
+   color: #FFFFFF;
+   background-color: #6B77E5;
+   padding: 21px 27px 22px 27px;
+   max-width: 184px;
+   margin-bottom: 30px;
+}
+
+
+/*Макет №2*/
+.latest-projects {
+   width: 1230px;
+   margin: 0 auto;
+   font-family: "Inter", sans-serif;
+   font-weight: normal;
+   font-size: 18px;
+   margin-bottom: 150px;
+}
+.text-before-pictures {
+   text-align: center;
+   max-width: 852px;
+   margin: 0 auto;
+}
+.sub-text{
+   font-weight: 500;
+   margin-bottom: 15px;
+   color: #37393F;
+   background: url("../img/green_icon.png") 345px 2.5px no-repeat;
+}
+
+.main-title-projects {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-size: 40px;
+   color: #37393F;
+   line-height: 1.21;
+   text-transform: capitalize;
+   margin-bottom: 14px;
+}
+
+.text-block{
+   color: #7D7D7D;
+   text-align: center;
+   line-height: 1.46;
+   margin-bottom: 46px;
+}
+
+.first-block {
+   margin-bottom: 58px;
+}
+.card-box-left,
+.card-box-center
+{
+   display: inline-block;
+   margin-right: 34px;
+   vertical-align: top;
+   width: 383px;
+   min-height: 583px;
+}
+
+.card-box-right{
+   display: inline-block;
+   vertical-align: top;
+   width: 383px;
+   min-height: 583px;  
+}
+
+.fin-invest-1 {
+   background: url("../img/financial_investmnet.png") center / cover no-repeat ;
+   width: 384px;
+   height: 501px;
+   margin-bottom: 24px;
+}
+.tittle-card {
+   font-family: "Poppins", sans-serif;
+   font-size: 20px;
+   font-weight: 600;
+   margin-bottom: 14.9px;
+   color: #37393F;
+   text-transform: capitalize;
+
+}
+.date {
+   background: url("../img/calendar_icon.svg") no-repeat;
+   padding-left: 22px;
+   font-size: 14px;
+   color: #7D7D7D;
+   line-height: 1.46;
+}
+
+.mark-strategy {
+   vertical-align: top;
+   background: url("../img/marketing_strategy.png") center / cover no-repeat;
+   width: 384px;
+   height: 501px;
+   margin-bottom: 24px;
+}
+
+.business-consult {
+   display: inline-block;
+   vertical-align: top;
+   background: url("../img/business_consulting.png") center / cover no-repeat;
+   width: 384px;
+   height: 501px;
+   margin-bottom: 24px;
+}
+
+.fin-invest-2 {
+   display: inline-block;
+   vertical-align: top;
+   background: url("../img/financial_investmnet_woman.png") center / cover no-repeat;
+   width: 384px;
+   height: 501px;
+   margin-bottom: 24px;
+}
+
+.web-develop {
+   display: inline-block;
+   vertical-align: top;
+   background: url("../img/web_development.png") center / cover no-repeat;
+   width: 384px;
+   height: 501px;
+   margin-bottom: 24px;
+}
+
+.fin-invest-3 {
+   display: inline-block;
+   vertical-align: top;
+   background: url("../img/financial_investmnet_6.png") center / cover no-repeat;
+   width: 384px;
+   height: 501px;
+   margin-bottom: 24px;
+}
+
+/* Макет №3 */
+.euphoria {
+   max-width: 1240px;
+   padding-left: 21px;
+   margin: 0 auto;
+   font-family: "Causten", sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   letter-spacing: 0.4px;
+   color: #807D7E;
+   line-height: 1.68;
+   margin-bottom: 100px;
+}
+
+.decoration{
+   display: inline-block;
+   width: 6px;
+   height: 28px;
+   border-radius: 10px;
+   background: #8A33FD;
+}
+.titile-euphoria {
+   display: inline-block;
+   font-family: "Core Sans C", sans-serif;
+   font-weight: 700;
+   font-size: 28px;
+   color: #3C4242;
+   line-height: 1.20;
+   margin-bottom: 30px;
+   letter-spacing: 0.56px;
+   padding-left: 21px;
+   text-align: center;
+}
+
+.part-1 {
+   margin-bottom: 25px;
+}
+
+.part-1 p,
+.part-2 p {
+   margin-bottom: 20px;
+}
+
+.sub-title-euphoria {
+   font-family: Core Sans C;
+   font-weight: 600;
+   margin-bottom: 25px;
+}
+
+.part-2 {
+   margin-bottom: 20px;
+}
+.link-euphoria {
+   font-family: "Core Sans C", sans-serif;
+   font-weight: 600;
+   text-transform: capitalize;
+}
+
+span{
+   font-weight: 700;
+}
+
+/* Макет №4 */
+.euphoria-2 {
+   font-family:"Causten", sans-serif;
+   font-weight: 300;
+   font-size: 20px;
+   color: #FFF;
+   letter-spacing: 1px; 
+   max-width: 1440px;
+   margin: 0 auto;
+}
+.block-euphoria-2{
+   display: inline-block;
+   font-size: 0;
+   margin-bottom: 100px;
+}
+.leaves {
+   display: inline-block;
+   width: 620px;
+   min-height:640px;
+   background: url(../img/background_leaves.png);
+   border-radius: 10px 0 0 10px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   vertical-align: middle;
+   padding: 183px 74px 175px;
+}
+
+.youth{
+   display: inline-block;
+   width: 620px;
+   min-height: 640px;
+   background-image: url("../img/young_people.png");
+   background-repeat: no-repeat;
+   border-radius: 0 10px 10px 0;
+   vertical-align: middle;
+   background-position: center;
+   background-size: cover;
+}
+
+.text-leaves{
+   max-width: 466px;
+}
+.title-euphoria-2 {
+   font-family: "Core Sans C", sans-serif;
+   font-size: 34px;
+   font-weight: 800;
+   line-height: 1.47;
+   letter-spacing: 0.208px;
+   text-transform: uppercase;
+   text-align: left;
+   color:#FFFFFF;
+   margin-bottom: 30px;
+}
+
+.text-euphoria-2{
+   color:#FFF;
+   font-size: 18px;
+   margin-bottom: 50px;
+}
+
+.link-euphoria-2 {
+   font-size: 18px;
+   font-weight: 600;
+   display: inline-block;
+   color: #3C4242;
+}
+
+.title-euphoria-2 {
+   font-family: "Core Sans C", sans-serif;
+   font-size: 34px;
+   font-weight: 800;
+   line-height: 1.47;
+   letter-spacing: 0.208px;
+   text-transform: uppercase;
+   text-align: left;
+   color:#FFFFFF;
+   margin-bottom: 30px;
+}
+
+.link-euphoria-2{
+   max-width: 168px;
+   background-color: #FFF;
+   border-radius: 8px;
+   padding: 12px 44px;
+   letter-spacing: 0;
+}
+
+/* Practice */
+.box-1, 
+.box-2{
+   padding: 30px;
+}
+.practice-title, 
+.title{
+   margin-bottom: 20px;
+   color: green;
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-size: 30px;
+   text-align: center;
+}
+
+.box-1{
+   color: #193f58;
+   width: 600px;
+   height: 400px;
+   background-color: rgb(107, 201, 229);
+   background-image: url("../img/background_dots.jfif");
+   background-repeat: no-repeat;
+   background-position: 20px 50px;
+   margin-bottom: 60px;
+}
+.text-practice{
+   margin: 50px;
+   font-size: 20px;
+}
+
+.box-2{
+   width: 350px;
+   background-image: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(119,128,191,1) 24%, rgba(190,189,129,1) 44%, rgba(253,187,45,1) 100%);
+}
