@@ -1,0 +1,38 @@
+@import url(reset.css);
+
+main{
+	background-color: beige;
+}
+
+.title{
+	font-size: 50px;
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.sub-title{
+	font-size: 30px;
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.icon-vector{
+	margin-bottom: 100px;
+}
+
+.icon-vector p{
+	display: inline-block;
+	padding: 10px;	
+}
+
+
+.content-vector p{
+	display: inline-block;
+	padding: 15px;
+}
+
+.content-rast p{
+	margin-bottom: 20px;
+}
